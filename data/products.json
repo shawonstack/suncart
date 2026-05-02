@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "UV Protection Sunglasses",
+    "brand": "SunShade",
+    "price": 15,
+    "rating": 4.7,
+    "stock": 10,
+    "description": "Block out harmful UV rays with these sleek polarized sunglasses. Classic wayfarer-style frames in matte black with 100% UVA/UVB protection. Perfect for beach trips, outdoor activities, or everyday summer wear. Lightweight and durable frame fits most face shapes comfortably.",
+    "image": "/images/1777718054828_sunglass.jpg",
+    "category": "Accessories",
+    "badge": "Best Seller"
+  },
+  {
+    "id": 2,
+    "name": "Cooling Ice Towel (4-Pack)",
+    "brand": "Sukeen",
+    "price": 18,
+    "rating": 4.8,
+    "stock": 25,
+    "description": "Stay cool all summer long with these instant cooling towels. Made from hyper-evaporative material that cools down to 30°F below body temperature within seconds. Comes in a portable zip-lock bag with a carabiner clip. Perfect for outdoor workouts, sports, hiking, and hot summer days.",
+    "image": "/images/1777718054825_ice-towel.jpg",
+    "category": "Cooling",
+    "badge": "Hot Deal"
+  },
+  {
+    "id": 3,
+    "name": "Insulated Water Bottle 40oz",
+    "brand": "Raymylo",
+    "price": 32,
+    "rating": 4.9,
+    "stock": 15,
+    "description": "Keep your drinks cold for 24 hours or hot for 12 hours with this double-wall vacuum insulated stainless steel bottle. Comes with 3 lids including a straw lid and spout lid. Includes a paracord handle, carrying pouch, and straw cleaner. BPA-free and sweat-proof exterior.",
+    "image": "/images/1777718054831_water-bottle.jpg",
+    "category": "Hydration",
+    "badge": "Top Rated"
+  },
+  {
+    "id": 4,
+    "name": "Cotton Baseball Cap (3-Pack)",
+    "brand": "CapStyle",
+    "price": 22,
+    "rating": 4.5,
+    "stock": 30,
+    "description": "Classic structured baseball caps in a value 3-pack — black, navy, and gray. Made from breathable cotton with an adjustable back strap for a perfect fit. Low-profile design with UV-blocking fabric. Great for outdoor activities, travel, or casual everyday wear. One size fits most adults.",
+    "image": "/images/1777718054823_cotton-cap.jpg",
+    "category": "Headwear",
+    "badge": "Value Pack"
+  },
+  {
+    "id": 5,
+    "name": "Oversized Boxy T-Shirt (3-Pack)",
+    "brand": "UrbanBreeze",
+    "price": 35,
+    "rating": 4.6,
+    "stock": 20,
+    "description": "Premium heavyweight cotton tees in a relaxed oversized fit. Available as a 3-pack in white, navy, and black. Features a drop shoulder, wide neckband, and comfortable boxy silhouette. Made from 100% ring-spun cotton for a soft, breathable feel that keeps you cool all summer.",
+    "image": "/images/1777718054830_t-shirt.jpg",
+    "category": "Clothing",
+    "badge": "New"
+  },
+  {
+    "id": 6,
+    "name": "Rechargeable Portable Fan",
+    "brand": "Warmco",
+    "price": 45,
+    "rating": 4.7,
+    "stock": 12,
+    "description": "Powerful 10000mAh rechargeable battery fan with LED battery display. Foldable kickstand for desk or table use. 3 speed settings and ultra-quiet motor. Works for up to 24 hours on low speed. Perfect for outdoor camping, office desks, power outages, and hot summer days. USB-C charging.",
+    "image": "/images/1777718054827_rechargable.jpg",
+    "category": "Electronics",
+    "badge": "Staff Pick"
+  }
+]
