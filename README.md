@@ -1,11 +1,56 @@
-SunCart – Summer Essentials Store A modern summer eCommerce platform where users
-can explore and purchase seasonal products like sunglasses, cooling towels,
-insulated bottles, caps, fans, and more. Built with Next.js and BetterAuth for
-secure authentication.
+# SunCart – Summer Essentials Store
 
-Project Purpose SunCart is a summer-themed eCommerce web application where users
-can:
+A modern summer eCommerce platform where users can explore and purchase seasonal
+products like sunglasses, cooling towels, insulated bottles, caps, fans, and
+more.
 
-Browse a curated collection of summer essential products View detailed product
-information (protected — login required) Register and login using Email/Password
-or Google OAuth Manage their profile and update their information
+## Purpose
+
+SunCart is a summer-themed eCommerce web application where users can browse
+summer essential products, view detailed product information (protected route),
+and manage their profile after authentication.
+
+## Key Features
+
+- Hero Section with summer sale banner
+- Popular Products section (3 products on homepage)
+- All Products page with 6 summer items
+- Protected Product Details page (login required)
+- Email/Password and Google OAuth authentication
+- My Profile page with user info
+- Update Profile (name and photo)
+- Summer Care Tips section
+- Top Brands section
+- Fully responsive on mobile, tablet, desktop
+- Animations with Animate.css
+
+## Tech Stack
+
+- **Next.js 15** (TypeScript) — App Router
+- **Tailwind CSS v4** — Styling
+- **DaisyUI v5** — UI Components
+- **BetterAuth** — Authentication
+- **MongoDB Atlas** — Database
+
+## NPM Packages Used
+
+| Package           | Purpose                               |
+| ----------------- | ------------------------------------- |
+| `better-auth`     | Authentication (email + Google OAuth) |
+| `mongodb`         | Database connection                   |
+| `daisyui`         | UI component library                  |
+| `animate.css`     | CSS animations                        |
+| `react-hot-toast` | Toast notifications                   |
+
+## Environment Variables
+
+```env
+BETTER_AUTH_SECRET=
+BETTER_AUTH_URL=
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+MONGODB_URI=
+NEXT_PUBLIC_APP_URL=
+```
+
+## Developer
