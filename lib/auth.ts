@@ -1,13 +1,13 @@
 import { betterAuth } from 'better-auth';
-import { prismaAdapter } from 'better-auth/adapters/prisma';
-import { PrismaClient } from '@prisma/client';
+import { mongodbAdapter } from 'better-auth/adapters/mongodb';
+import { MongoClient } from 'mongodb';
 
-const prisma = new PrismaClient();
+const client = new MongoClient(process.env.MONGODB_URI as string);
 
 export const auth = betterAuth({
-  database: prismaAdapter(prisma, {
-    provider: 'sqlite',
-  }),
+  secret: process.env.BETTER_AUTH_SECRET,
+  baseURL: process.env.BETTER_AUTH_URL,
+  database: mongodbAdapter(client.db('suncart')),
   emailAndPassword: {
     enabled: true,
   },
